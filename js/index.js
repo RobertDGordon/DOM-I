@@ -118,3 +118,9 @@ const parentElement = document.querySelector('nav')
 
 parentElement.append(newNav1)
 parentElement.prepend(newNav2)
+
+let testBtn = document.querySelector('button')
+
+testBtn.addEventListener('click', (event) => {
+  ctaImg.toggleAttribute('hidden');
+})
